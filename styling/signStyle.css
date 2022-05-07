@@ -1,0 +1,78 @@
+.div1 {
+  min-height: 100vh;
+  padding: 70px 120px 0px 120px;
+  margin-top: -150px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.form-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-box {
+  width: 400px;
+  height: 75px;
+  border: 3px solid var(--transgray);
+  border-radius: 9.03499px 22.5875px;
+  display: grid;
+  grid-template-columns: 50px auto;
+  gap: 0px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.two-column {
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  justify-content: flex-start;
+}
+
+.submit-box {
+  width: 400px;
+  height: 75px;
+  border: 3px solid var(--transgray);
+  border-radius: 9.03499px 22.5875px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.age-box {
+  width: 125px;
+  color: #75758a;
+}
+
+.phone-box {
+  width: 255px;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.bottom-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}

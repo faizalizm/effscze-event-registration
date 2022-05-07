@@ -1,0 +1,254 @@
+/* ------------------------------------------ Specific Setup */
+
+.special-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+/* --------------------------------------------------- Div 1 */
+
+.div1 {
+  min-height: 100vh;
+  padding-top: 100px;
+  margin-top: -150px;
+  margin-bottom: 200px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.captionpara {
+  font-size: 24px;
+  color: #121212;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  line-height: 30px;
+}
+
+.div1-col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div1-col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* --------------------------------------------------- Div 2 */
+
+aside {
+  display: grid;
+  grid-template-columns: 10% 80%;
+  gap: 15px;
+}
+
+.details-updated {
+  margin-top: 50px;
+  padding: 0 00px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-list-updated {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.inside-details {
+  display: flex;
+  gap: 20px;
+}
+
+.details {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.icon-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  gap: 13px;
+}
+
+.div2 {
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.view-more-wrap {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.fee {
+  padding-bottom: 5px;
+}
+
+.view-more:link,
+.view-more:visited {
+  transition: none;
+}
+
+.view-more:hover,
+.view-more:active {
+  background: var(--palepink);
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: currentColor;
+  background-clip: border-box;
+  text-fill-color: currentColor;
+  transform: none;
+}
+
+.view-more {
+  width: 180px;
+  text-align: center;
+  background-color: var(--transgray);
+  padding: 5px;
+  border-radius: 20px 50px;
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-more-text {
+  margin-top: 0px;
+}
+
+.arrow-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div2-figure1-updated {
+  width: 100%;
+  height: 250px;
+  background: var(--palepink);
+  border-radius: 20px 50px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div2-figure1 {
+  width: 250px;
+  height: 250px;
+  background: var(--palepink);
+  border-radius: 20px 50px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div2-figure2 {
+  width: 200px;
+  height: 180px;
+  margin: 35px 0px 35px 40px;
+  background: var(--palepink);
+  border-radius: 13.9316px 34.829px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div2-wrapper {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.div2-wrapper1 {
+  display: flex;
+  gap: 50px;
+}
+
+.div2-col1-updated {
+  padding: 40px 80px;
+  width: 720px;
+  height: 650px;
+  background-color: var(--darkgray);
+  border-radius: 20px 50px;
+}
+
+.div2-col1 {
+  padding: 40px 50px;
+  width: 350px;
+  height: 650px;
+  background-color: var(--darkgray);
+  border-radius: 20px 50px;
+}
+
+.div2-wrapper2 {
+  display: grid;
+  gap: 45px;
+}
+
+.div2-col2 {
+  width: 480px;
+  height: 250px;
+  background-color: var(--darkgray);
+  border-radius: 20px 50px;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.div2-col2-small {
+  width: 480px;
+  height: 60px;
+  font-weight: 700;
+  text-align: center;
+  background-color: var(--darkgray);
+  border-radius: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --------------------------------------------------- Div 3 */
+
+.div3 {
+  margin: 300px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.div3-wrapper {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 35px;
+}
