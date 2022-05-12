@@ -5,8 +5,6 @@ Tagline : Let's play a game (reference to Saw, American horror film)
 
 Brought to you by :
 	o Muhammad Faizal | SW0107290
-	o Muhammad Daniel Bin Mohd Hamdan | SW0107514
-	o Zafar Muhammad Aqif Bin Muhammad Farid | SW0107316
 
 
 
