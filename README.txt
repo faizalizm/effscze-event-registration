@@ -4,7 +4,7 @@ Non profit event organizer; ABSTRAKT, established in 2022. Our events are specia
 Tagline : Let's play a game (reference to Saw, American horror film)
 
 Brought to you by :
-	o Muhammad Faizal | SW0107290
+	o Muhammad Faizal
 
 
 
